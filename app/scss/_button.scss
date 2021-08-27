@@ -1,0 +1,61 @@
+.btn{
+    color: $color-white;
+    background: $color-blue;
+    border: none;
+    border-radius: $border-radius;
+    cursor: pointer;
+    transition: all $transition;
+    max-width: 150px;
+    padding: 14px 24px;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 22px;
+
+    &__basket{
+        font-family: $font-icons;
+        max-width: 100%;
+        border-radius: 50%;
+        border: 1px;
+        background: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        padding: 14px;
+        color: currentColor;
+        cursor: pointer;
+    }
+
+    &--round{
+        font-family: $font-icons;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin: 0;
+        padding: 0;
+
+        span{
+            padding: 4px;
+        }
+    }
+
+    &:hover{
+        background: darken($color: $color-blue, $amount: 20%);
+    }
+
+    &:active{
+        transform: scale(0.8);
+    }
+
+    &__base{
+        &--disabled{
+
+            background: $color-disabled;
+
+            &:hover{
+                transform: scale(1);
+                background: $color-disabled;
+            }
+        }
+    }
+}

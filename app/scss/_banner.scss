@@ -1,0 +1,28 @@
+.banner{
+    padding: 30px 0px;
+
+    &__item{
+        position: relative;
+        padding-bottom: 512px;
+
+        img{
+            position: absolute;
+        }
+    }
+
+    &__title{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-weight: $fw-normal;
+        color: $color-white;
+        @include positonReset;
+        z-index: 1;
+        
+        h3{
+            font-size: 72px;
+            line-height: 84px;
+        }
+    }
+}

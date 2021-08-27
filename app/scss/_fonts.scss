@@ -1,0 +1,90 @@
+/* roboto-regular - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v27-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/roboto-v27-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/roboto-v27-latin-regular.woff') format('woff'), /* Modern Browsers */
+
+  }
+  /* roboto-500 - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/roboto-v27-latin-500.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/roboto-v27-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/roboto-v27-latin-500.woff') format('woff'), /* Modern Browsers */
+        
+  }
+  /* roboto-700 - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/roboto-v27-latin-700.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/roboto-v27-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/roboto-v27-latin-700.woff') format('woff'), /* Modern Browsers */
+  }
+
+
+  @font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?5yrmd2');
+    src:  url('../fonts/icomoon.eot?5yrmd2#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?5yrmd2') format('truetype'),
+      url('../fonts/icomoon.woff?5yrmd2') format('woff'),
+      url('../fonts/icomoon.svg?5yrmd2#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-heart-full:before {
+    content: "\e908";
+  }
+  .icon-error:before {
+    content: "\e900";
+  }
+  .icon-basket:before {
+    content: "\e901";
+  }
+  .icon-cog:before {
+    content: "\e902";
+  }
+  .icon-dollar:before {
+    content: "\e903";
+  }
+  .icon-done:before {
+    content: "\e904";
+  }
+  .icon-filter:before {
+    content: "\e905";
+  }
+  .icon-heart:before {
+    content: "\e906";
+  }
+  .icon-search:before {
+    content: "\e907";
+  }
+  
+   

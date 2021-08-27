@@ -1,0 +1,23 @@
+.basket{
+    font-family: $font-base;
+    position: relative;
+    border: 1px solid;
+    border-radius: 100%;
+    color: $color-grey;
+
+    &__value{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 12px;
+        top: 56%;
+        left: -6%;
+        font-size: 14px;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background: $color-blue;
+        color: $color-white;
+    }
+}

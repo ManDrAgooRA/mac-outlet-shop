@@ -1,0 +1,19 @@
+.sidebar{
+    display: none;
+    width:325px;
+    padding: 15px 30px 15px 0px;
+
+    &__wrap{
+        padding: 15px 20px;
+        border-radius: $border-radius*2;
+        border: 1px solid $color-border;
+    }
+   
+    &__block{
+        button{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+    }
+}
