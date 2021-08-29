@@ -58,4 +58,34 @@
             }
         }
     }
+
+    &__wish{
+        position: absolute;
+        background: transparent;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: $font-icons;
+        font-size: 24px;
+        top: 8%;
+        right: 8%;
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+    }
 }
+
+.wish__status{
+    display: none;
+
+    &-red{
+        color: red;
+    }
+
+}
+
+.active{
+    display: block;
+}
+
